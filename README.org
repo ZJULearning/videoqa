@@ -1,16 +1,17 @@
 #+OPTION: ^:nil
 * Open-Ended Video-QA
 
-* Unifying the Video and Question Attentions for Open-Ended Video Question Answering
+** Unifying the Video and Question Attentions for Open-Ended Video Question Answering
 
-* Dataset
+*** Dataset
 - [[./dataset/file_map.tsv][file_map]]: contains the urls of the videos
 - [[./dataset/QA.tsv][QA]]: contains the question-answer pairs
+- [[./dataset/split][Split]]: contains the dataset split in the paper
 
-* Code
-** contains the methods in the paper
+*** Code
+**** contains the methods in the paper
 
-* Dependency
+*** Dependency
 - [[https://github.com/Theano][Theano]]
 - [[https://github.com/mila-udem/blocks][Blocks]]
 - Python >= 3.4
