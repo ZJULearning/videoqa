@@ -27,3 +27,8 @@
 - Question: What runs up a fence?
 - Groundtruth: a cat
 - Prediction: a cat
+
+.[[/examples/112935.gif]]
+- Question: What is a young girl in a car adjusting?
+- Groundtruth: her dark glasses
+- Prediction: her hair
