@@ -15,3 +15,15 @@
 - [[https://github.com/Theano][Theano]]
 - [[https://github.com/mila-udem/blocks][Blocks]]
 - Python >= 3.4
+
+*** Example
+
+[[./examples/117791.gif]] 
+- Question: What is a boy combing his hair with?
+- Groundtruth: with his fingers
+- Prediction: with his hands
+
+[[./examples/076306.gif]]
+- Question: What runs up a fence?
+- Groundtruth: a cat
+- Prediction: a cat
