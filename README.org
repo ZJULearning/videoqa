@@ -1,12 +1,22 @@
 #+OPTION: ^:nil
 * Open-Ended Video-QA
 
-** Unifying the Video and Question Attentions for Open-Ended Video Question Answering
+** [[http://ieeexplore.ieee.org/document/8017608/]Unifying the Video and Question Attentions for Open-Ended Video Question Answering]
 
 *** Dataset
 - [[./dataset/file_map.tsv][file_map]]: contains the urls of the videos
 - [[./dataset/QA.tsv][QA]]: contains the question-answer pairs
 - [[./dataset/split][Split]]: contains the dataset split in the paper
+
+If you use the dataset, please cite our paper 
+
+@article{xue2017unifying,
+  title={Unifying the Video and Question Attentions for Open-Ended Video Question Answering},
+  author={Xue, Hongyang and Zhao, Zhou and Cai, Deng},
+  journal={IEEE Transactions on Image Processing},
+  year={2017},
+  publisher={IEEE}
+}
 
 *** Code
 **** contains the methods in the paper
