@@ -1,7 +1,7 @@
 #+OPTION: ^:nil
 * Open-Ended Video-QA
 
-** [[http://ieeexplore.ieee.org/document/8017608/]Unifying the Video and Question Attentions for Open-Ended Video Question Answering]
+** [[http://ieeexplore.ieee.org/document/8017608][Unifying the Video and Question Attentions for Open-Ended Video Question Answering]]
 
 *** Dataset
 - [[./dataset/file_map.tsv][file_map]]: contains the urls of the videos
