@@ -18,9 +18,9 @@ Table of Contents
 videoqa is the dataset and the algorithms used in [**Unifying the Video and Question Attentions for Open-Ended Video Question Answering**](https://ieeexplore.ieee.org/abstract/document/8017608/)
 
 ## Datasets
-- [[./dataset/file_map.tsv][file_map]]: contains the Tumblr urls of the videos 
-- [[./dataset/QA.tsv][QA]]: contains the question-answer pairs
-- [[./dataset/split][Split]]: contains the dataset split in the paper
+- [file_map](https://github.com/ZJULearning/videoqa/tree/master/dataset/file_map.tsv): contains the Tumblr urls of the videos 
+- [QA](https://github.com/ZJULearning/videoqa/tree/master/dataset/QA.tsv): contains the question-answer pairs
+- [Split](https://github.com/ZJULearning/videoqa/tree/master/dataset/split): contains the dataset split in the paper
 
 ## Methods
 
@@ -30,24 +30,24 @@ videoqa is the dataset and the algorithms used in [**Unifying the Video and Ques
 + Mean-VQA: a designed baseline where imageQA is performed on each frame
 ### Results
 
-[[./examples/117791.gif]] 
+![ex1](https://github.com/ZJULearning/videoqa/tree/master/examples/117791.gif)
 - Question: What is a boy combing his hair with?
 - Groundtruth: with his fingers
 - Prediction: with his hands
 
-[[./examples/076306.gif]]
+![ex2](https://github.com/ZJULearning/videoqa/tree/master/examples/076306.gif)
 - Question: What runs up a fence?
 - Groundtruth: a cat
 - Prediction: a cat
 
-.[[/examples/112935.gif]]
+![ex3](https://github.com/ZJULearning/videoqa/tree/master/examples/112935.gif)
 - Question: What is a young girl in a car adjusting?
 - Groundtruth: her dark glasses
 - Prediction: her hair
 
 ## Dependency
-- [[https://github.com/Theano][Theano]]
-- [[https://github.com/mila-udem/blocks][Blocks]]
+- [Theano](https://github.com/Theano)
+- [Blocks](https://github.com/mila-udem/blocks)
 - Python >= 3.4
 ## Usage
 ``` python main.py ```
